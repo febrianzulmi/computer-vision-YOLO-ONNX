@@ -1,15 +1,15 @@
 # yolov5-onnx
 
-Proyek deteksi objek menggunakan YOLOv5 dengan ONNX Runtime.
+Project detection object YOLOv5 with ONNX Runtime.
 
-## Masalah DLL Error di Windows
+##Troubleshoot DLL Error Windows
 
 Jika Anda mengalami error:
 ```
 ImportError: DLL load failed while importing onnxruntime_pybind11_state
 ```
 
-### Solusi:
+### Solutiom:
 
 1. **Install Visual C++ Redistributables** (Paling Penting!)
    - Download dan install dari: https://aka.ms/vs/17/release/vc_redist.x64.exe
